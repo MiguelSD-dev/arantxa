@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Añadido */
+  flex-direction: column;
+  min-height: 100vh; /* Añadido para ocupar al menos el 100% de la altura de la ventana */
+}
+
+header, footer {
+  background-color: antiquewhite;
+  color: black;
+  padding: 1em 0;
+}
+
+header {
+  text-align: left;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  width: 100%;
+  background-color: antiquewhite;
+  color: black;
+  padding: 1em 0;
+  margin-top: auto; /* Añadido */
+}
+
+main {
+  margin-top: 2em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0.5em 0;
+}
