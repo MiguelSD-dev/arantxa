@@ -40,3 +40,33 @@ h1, h2 {
   margin: 0;
   padding: 0.5em 0;
 }
+
+/* Estilos personalizados para los botones del navbar */
+.navbar-nav .nav-link.btn-nav {
+  background-color: #f8f9fa; /* Color de fondo predeterminado */
+  color: #343a40; /* Color del texto */
+  border: 1px solid transparent; /* Borde transparente por defecto */
+  margin: 0 5px; /* Espaciado entre botones */
+  border-radius: 4px; /* Bordes redondeados */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navbar-nav .nav-link.btn-nav:hover,
+.navbar-nav .nav-link.btn-nav:focus {
+  background-color: #b4d7eb; /* Color de fondo al pasar el mouse */
+  color: #343a40; /* Color del texto al pasar el mouse */
+  border-color: #ebb8b4; /* Color del borde al pasar el mouse */
+}
+
+.navbar-nav .nav-link.btn-nav.active {
+  background-color: #ebb8b4; /* Color de fondo cuando está activo */
+  color: #fff; /* Color del texto cuando está activo */
+  border-color: #ebb8b4; /* Color del borde cuando está activo */
+}
+
+/* Ajustes para el color del texto */
+.navbar-nav .nav-link.btn-nav:hover,
+.navbar-nav .nav-link.btn-nav:focus,
+.navbar-nav .nav-link.btn-nav.active {
+  color: #fff; /* Color del texto al pasar el mouse o cuando está activo */
+}
